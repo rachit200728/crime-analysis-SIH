@@ -23,7 +23,18 @@
   },
   "CL-2024-001": {
     "person": [
-      "Rahul Sharma"
+      "Rahul Sharma",
+      "Victor Hale",
+      "Gregory Simmons",
+      "Melissa Grant",
+      "Ryan Osborne",
+      "Patricia Nolan",
+      "Andrew Whitfield",
+      "Emily Sanders",
+      "Brian Coleman",
+      "Diane Foster",
+      "Kevin Marsh",
+      "Samuel Kirk"
     ],
     "location": [
       "Delhi",
@@ -31,14 +42,29 @@
     ],
     "organization": [
       "Connaught Place",
-      "Shadownet Corporation"
+      "Shadownet Corporation",
+      "Bayview Shipping Yard",
+      "Nathan Price",
+      "Lakeside Storage Units",
+      "Eastgate Motel",
+      "Riverside Cargo Terminal"
     ],
     "date": [
-      "15th December"
+      "15th December",
+      "April 2",
+      "April 5",
+      "April 8",
+      "April 10",
+      "April 13",
+      "April 15",
+      "April 18"
     ],
     "money": [],
     "number": [
-      "50000"
+      "50000",
+      "two",
+      "6",
+      "seven"
     ]
   },
   "CL-2024-07": {

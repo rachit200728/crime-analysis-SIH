@@ -76,9 +76,21 @@ export default function NetworkGraph() {
       const res = await fetch(`${GRAPH_API}/api/simulate`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ person: personId }),
+        // Pass the same case filter used to build the graph, so the
+        // backend simulates removal within THIS case's network only —
+        // not a graph merged across every case.
+        body: JSON.stringify({
+          person: personId,
+          case_id: caseFilter?.caseNumber || null,
+        }),
       });
       const data = await res.json();
+
+      if (!res.ok || data.error) {
+        setError(data.error || "Simulation failed.");
+        return;
+      }
+
       setSimulationResult(data);
       setGraphData(data.disrupted_network);
       setSelected(null);
@@ -92,6 +104,7 @@ export default function NetworkGraph() {
   function resetGraph() {
     setSimulationResult(null);
     setSelected(null);
+    setError("");
     fetchNetwork();
   }
 
