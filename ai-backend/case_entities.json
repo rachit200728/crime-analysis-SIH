@@ -1,0 +1,98 @@
+{
+  "CL-2024-06": {
+    "person": [
+      "Arjun Mehta",
+      "Sameer Khan",
+      "Farhan Ali",
+      "Rizwan Ahmed",
+      "Karol Bagh",
+      "Priya Nair"
+    ],
+    "location": [
+      "Delhi"
+    ],
+    "organization": [
+      "Connaught Place",
+      "Crescent Trading Company"
+    ],
+    "date": [
+      "two days"
+    ],
+    "money": [],
+    "number": []
+  },
+  "CL-2024-001": {
+    "person": [
+      "Rahul Sharma"
+    ],
+    "location": [
+      "Delhi",
+      "Mumbai"
+    ],
+    "organization": [
+      "Connaught Place",
+      "Shadownet Corporation"
+    ],
+    "date": [
+      "15th December"
+    ],
+    "money": [],
+    "number": [
+      "50000"
+    ]
+  },
+  "CL-2024-07": {
+    "person": [
+      "Kanhaiya Lal",
+      "Rajasthan",
+      "Nupur Sharma",
+      "Mohammad Riyaz Attari",
+      "Ghouse Mohammed",
+      "Prophet Muhammad",
+      "Lal"
+    ],
+    "location": [
+      "Udaipur"
+    ],
+    "organization": [
+      "BJP"
+    ],
+    "date": [
+      "June 28, 2022"
+    ],
+    "money": [],
+    "number": [
+      "two",
+      "Two"
+    ]
+  },
+  "CL-2024-04": {
+    "person": [
+      "Daniel Cole",
+      "Oliver Grant",
+      "Ethan Brooks",
+      "Isabella Reyes"
+    ],
+    "location": [
+      "Marcus Webb"
+    ],
+    "organization": [
+      "Riverside Docks",
+      "Northgate Storage Facility",
+      "Sophie Turner",
+      "Lucas Hart"
+    ],
+    "date": [
+      "March 12",
+      "March 15",
+      "March 18",
+      "March 20"
+    ],
+    "money": [],
+    "number": [
+      "two",
+      "4",
+      "four"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+[
+    {
+        "timestamp": "2026-09-05T20:53:57.534659",
+        "action": "REPORT_GENERATED",
+        "filename": "REPORT-290A057F.pdf",
+        "status": "SUCCESS"
+    },
+    {
+        "timestamp": "2026-09-05T20:54:26.132833",
+        "action": "REPORT_VERIFICATION",
+        "filename": "REPORT-290A057F.pdf",
+        "status": "VERIFIED"
+    },
+    {
+        "timestamp": "2026-09-05T21:09:17.223834",
+        "action": "REPORT_VERIFICATION",
+        "filename": "criminal_network_demo_report.txt",
+        "status": "UNKNOWN_REPORT"
+    },
+    {
+        "timestamp": "2026-09-05T21:09:58.369184",
+        "action": "REPORT_VERIFICATION",
+        "filename": "REPORT-290A057F.txt",
+        "status": "VERIFIED"
+    },
+    {
+        "timestamp": "2026-09-06T14:36:14.388720",
+        "action": "REPORT_GENERATED",
+        "filename": "REPORT-E6D52B64.pdf",
+        "status": "SUCCESS"
+    },
+    {
+        "timestamp": "2026-09-06T14:37:21.273701",
+        "action": "REPORT_VERIFICATION",
+        "filename": "REPORT-E6D52B64.txt",
+        "status": "VERIFIED"
+    },
+    {
+        "timestamp": "2026-09-06T18:03:07.678517",
+        "action": "REPORT_VERIFICATION",
+        "filename": "REPORT-E6D52B64_1.txt",
+        "status": "UNKNOWN_REPORT"
+    },
+    {
+        "timestamp": "2026-09-06T18:03:34.823396",
+        "action": "REPORT_VERIFICATION",
+        "filename": "REPORT-E6D52B64.pdf",
+        "status": "VERIFIED"
+    },
+    {
+        "timestamp": "2026-09-07T09:28:05.526567",
+        "action": "REPORT_VERIFICATION",
+        "filename": "REPORT-E6D52B64.pdf",
+        "status": "VERIFIED"
+    }
+]

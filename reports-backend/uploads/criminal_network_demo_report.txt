@@ -1,0 +1,15 @@
+CRIMINAL NETWORK ANALYZER — DEMO REPORT
+Generated for fake/demo data only
+
+Total people: 5
+Total connections: 5
+
+IMPORTANT CONNECTORS
+ Rank Person  Bridge Score
+    1  Mohan          66.7
+    2 Suresh          50.0
+    3   Raju           0.0
+    4   Aman           0.0
+    5  Karan           0.0
+Just for edu 
+Note: Bridge Score is an analytical signal, not proof of criminal involvement.
