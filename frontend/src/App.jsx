@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Routes, Route, useNavigate } from "react-router-dom";
+import { Routes, Route, useNavigate, Navigate } from "react-router-dom";
 import {
   ShieldCheck,
   LockKeyhole,
@@ -196,18 +196,23 @@ function Login() {
   );
 }
 
+function ProtectedRoute({ children }) {
+  const token = localStorage.getItem("token");
+  return token ? children : <Navigate to="/" replace />;
+}
+
 export default function App() {
   return (
     <Routes>
-  <Route path="/" element={<Login />} />
-  <Route path="/dashboard" element={<Dashboard />} />
-  <Route path="/upload" element={<UploadCase />} />
-  <Route path="/network" element={<NetworkGraph />} />
-  <Route path="/cases" element={<Cases />} />
-  <Route path="/suspects" element={<Suspects />} />
-  <Route path="/networks" element={<Networks />} />
-  <Route path="/reports" element={<Reports />} />
-<Route path="/map" element={<WorldMap />} />
-</Routes>
+      <Route path="/" element={<Login />} />
+      <Route path="/dashboard" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
+      <Route path="/upload" element={<ProtectedRoute><UploadCase /></ProtectedRoute>} />
+      <Route path="/network" element={<ProtectedRoute><NetworkGraph /></ProtectedRoute>} />
+      <Route path="/cases" element={<ProtectedRoute><Cases /></ProtectedRoute>} />
+      <Route path="/suspects" element={<ProtectedRoute><Suspects /></ProtectedRoute>} />
+      <Route path="/networks" element={<ProtectedRoute><Networks /></ProtectedRoute>} />
+      <Route path="/reports" element={<ProtectedRoute><Reports /></ProtectedRoute>} />
+      <Route path="/map" element={<ProtectedRoute><WorldMap /></ProtectedRoute>} />
+    </Routes>
   );
 }

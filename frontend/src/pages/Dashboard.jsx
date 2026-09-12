@@ -122,6 +122,11 @@ export default function Dashboard() {
         const response = await fetch("http://127.0.0.1:8000/cases", {
           headers: { Authorization: `Bearer ${token}` },
         });
+
+        if (!response.ok) {
+          throw new Error(`Failed to load cases: ${response.status}`);
+        }
+
         const data = await response.json();
 
         const role = localStorage.getItem("role");
@@ -132,7 +137,16 @@ export default function Dashboard() {
           id: c.case_number,
           title: c.title,
           suspects: 0,
-          status: c.status === "open" ? "Active" : c.status === "in progress" ? "Under Review" : "Closed",
+          status:
+            c.status === "open"
+              ? "Active"
+              : c.status === "under_review"
+                ? "Under Review"
+                : c.status === "closed"
+                  ? "Closed"
+                  : c.status === "archived"
+                    ? "Archived"
+                    : "Active",
           risk: c.priority.charAt(0).toUpperCase() + c.priority.slice(1),
           date: c.created_at?.split("T")[0],
           unit: c.assigned_investigator || "—",

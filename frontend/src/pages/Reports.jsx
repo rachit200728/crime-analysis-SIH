@@ -27,10 +27,13 @@ export default function Reports() {
   async function fetchReports() {
     try {
       const res = await fetch(`${REPORTS_API}/api/reports`);
+      if (!res.ok) {
+        throw new Error(`Reports request failed: ${res.status}`);
+      }
       const data = await res.json();
       setReports(data);
     } catch (err) {
-      console.error("Could not load reports");
+      console.error("Could not load reports", err);
     } finally {
       setLoading(false);
     }

@@ -90,5 +90,53 @@
       "date": "March 20",
       "context": "Incident 4 - Eastside Freight Yard, March 20:"
     }
+  ],
+  "CL-2024-03": [
+    {
+      "date": "March 12",
+      "context": "Incident 1 - Riverside Docks, March 12:"
+    },
+    {
+      "date": "March 15",
+      "context": "Incident 2 - Northgate Storage Facility, March 15:\nDaniel Cole was later identified at Northgate Storage Facility, this time in the company of Sophie Turner and Ethan Brooks."
+    },
+    {
+      "date": "March 18",
+      "context": "Incident 3 - Harbor View Apartments, March 18:\nA separate meeting was recorded at Harbor View Apartments involving Sophie Turner and Isabella Reyes."
+    },
+    {
+      "date": "March 20",
+      "context": "Incident 4 - Eastside Freight Yard, March 20:"
+    }
+  ],
+  "CL-2024_009": [
+    {
+      "date": "April 2",
+      "context": "Incident 1 - Cedar Point Warehouse, April 2:\nNathan Price was observed meeting with Victor Hale and Gregory Simmons inside Cedar Point Warehouse."
+    },
+    {
+      "date": "April 5",
+      "context": "Incident 2 - Bayview Shipping Yard, April 5:\nNathan Price was later identified at Bayview Shipping Yard in the company of Melissa Grant and Ryan Osborne."
+    },
+    {
+      "date": "April 8",
+      "context": "Incident 3 - Fairview Financial Plaza, April 8:\nA separate meeting was recorded at Fairview Financial Plaza involving Melissa Grant and Patricia Nolan."
+    },
+    {
+      "date": "April 10",
+      "context": "Incident 4 - Lakeside Storage Units, April 10:\nNathan Price met again with Gregory Simmons, this time at Lakeside Storage Units, along with two new contacts, Emily Sanders and Brian Coleman."
+    },
+    {
+      "date": "April 13",
+      "context": "Incident 5 - Northbridge Industrial Park, April 13:"
+    },
+    {
+      "date": "April 15",
+      "context": "Incident 6 - Eastgate Motel, April 15:\nNathan Price was recorded briefly meeting Diane Foster at Eastgate Motel."
+    },
+    {
+      "date": "April 18",
+      "context": "Incident 7 - Riverside Cargo Terminal, April 18:\nRyan Osborne and Brian Coleman were seen together at Riverside Cargo Terminal, along with a new individual, Samuel Kirk."
+    }
   ]
 }

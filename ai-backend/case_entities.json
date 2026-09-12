@@ -120,5 +120,129 @@
       "4",
       "four"
     ]
+  },
+  "CL-2024-03": {
+    "person": [
+      "Daniel Cole",
+      "Oliver Grant",
+      "Ethan Brooks",
+      "Isabella Reyes"
+    ],
+    "location": [
+      "Marcus Webb"
+    ],
+    "organization": [
+      "Riverside Docks",
+      "Northgate Storage Facility",
+      "Sophie Turner",
+      "Lucas Hart"
+    ],
+    "date": [
+      "March 12",
+      "March 15",
+      "March 18",
+      "March 20"
+    ],
+    "money": [],
+    "number": [
+      "two",
+      "4",
+      "four"
+    ]
+  },
+  "CL-2024-05": {
+    "person": [
+      "James Carter",
+      "Laura Bennett",
+      "Michael Ross",
+      "Thomas Reed",
+      "Claire Dawson",
+      "Henry Walsh",
+      "George Pryce",
+      "Olivia Marsh",
+      "Dawson"
+    ],
+    "location": [
+      "Central Plaza"
+    ],
+    "organization": [
+      "Summary - Cross-Group Coordination\n\nIncident 1 - Location:",
+      "Natalie Cross"
+    ],
+    "date": [],
+    "money": [],
+    "number": []
+  },
+  "CL-2024-007": {
+    "person": [
+      "James Carter",
+      "Laura Bennett",
+      "Thomas Reed"
+    ],
+    "location": [
+      "Central Plaza"
+    ],
+    "organization": [],
+    "date": [],
+    "money": [],
+    "number": [
+      "One"
+    ]
+  },
+  "CL-2024-008": {
+    "person": [
+      "Claire Dawson",
+      "Henry Walsh",
+      "Thomas Reed"
+    ],
+    "location": [],
+    "organization": [],
+    "date": [],
+    "money": [],
+    "number": [
+      "Two"
+    ]
+  },
+  "CL-2024_009": {
+    "person": [
+      "George Pryce",
+      "Thomas Reed",
+      "Victor Hale",
+      "Gregory Simmons",
+      "Melissa Grant",
+      "Ryan Osborne",
+      "Patricia Nolan",
+      "Andrew Whitfield",
+      "Emily Sanders",
+      "Brian Coleman",
+      "Diane Foster",
+      "Kevin Marsh",
+      "Samuel Kirk"
+    ],
+    "location": [],
+    "organization": [
+      "Olivia Marsh",
+      "Bayview Shipping Yard",
+      "Nathan Price",
+      "Lakeside Storage Units",
+      "Eastgate Motel",
+      "Riverside Cargo Terminal"
+    ],
+    "date": [
+      "April 2",
+      "April 5",
+      "April 8",
+      "April 10",
+      "April 13",
+      "April 15",
+      "April 18"
+    ],
+    "money": [],
+    "number": [
+      "Three",
+      "two",
+      "6",
+      "seven"
+    ]
   }
 }

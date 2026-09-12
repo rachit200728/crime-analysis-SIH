@@ -14,5 +14,10 @@
     "lng": 73.6862571,
     "display_name": "Udaipur"
   },
-  "marcus webb": null
+  "marcus webb": null,
+  "central plaza": {
+    "lat": 22.2801674,
+    "lng": 114.173499,
+    "display_name": "Central Plaza"
+  }
 }

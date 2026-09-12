@@ -120,8 +120,9 @@ def get_network():
 def simulate():
     data = request.get_json()
     person = data.get("person")
+    case_id = data.get("case_id")
 
-    graph, is_real = get_active_graph()
+    graph, is_real = get_active_graph(case_id)
 
     if person not in graph.nodes():
         return jsonify({"error": "Person not found."}), 404
