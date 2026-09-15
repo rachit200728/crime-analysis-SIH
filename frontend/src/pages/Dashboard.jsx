@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Sidebar from "../components/Sidebar";
+import CountUp from "../components/CountUp";
 import {
   ShieldCheck,
   FolderOpen,
@@ -98,6 +99,7 @@ function RiskDonut({ slices, drawn, hovered, onHover, radarAngle }) {
       </svg>
       <span className="risk-donut-sweep" style={{ transform: `rotate(${radarAngle}deg)` }} />
       <div className="risk-donut-center">
+        {/* Left as a live value (not CountUp) since it changes continuously with the radar sweep */}
         <b>{displaySlice.value}</b>
         <span>{displaySlice.key.toLowerCase()}</span>
       </div>
@@ -271,7 +273,7 @@ export default function Dashboard() {
             </div>
             <div className="situation-hero">
               <div>
-                <p className="sit-value">{totalCases}</p>
+                <p className="sit-value"><CountUp value={totalCases} /></p>
                 <p className="sit-label">Open records on file</p>
               </div>
               <div className="sit-delta">
@@ -284,7 +286,7 @@ export default function Dashboard() {
                 <li key={row.key}>
                   <div className="sit-bar-meta">
                     <span>{row.key}</span>
-                    <b>{row.value}</b>
+                    <b><CountUp value={row.value} /></b>
                   </div>
                   <div className="sit-bar-track">
                     <span
@@ -301,15 +303,15 @@ export default function Dashboard() {
             <div className="sit-kpis">
               <div>
                 <span>Suspects</span>
-                <strong>839</strong>
+                <strong><CountUp value={839} duration={1000} /></strong>
               </div>
               <div>
                 <span>Networks</span>
-                <strong>37</strong>
+                <strong><CountUp value={37} duration={1000} /></strong>
               </div>
               <div>
                 <span>Reports</span>
-                <strong>94</strong>
+                <strong><CountUp value={94} duration={1000} /></strong>
               </div>
             </div>
           </section>
@@ -317,7 +319,7 @@ export default function Dashboard() {
           <section className="panel risk-panel">
             <div className="panel-head">
               <h2>Risk distribution</h2>
-              <span className="panel-meta">{riskTotal} scored cases</span>
+              <span className="panel-meta"><CountUp value={riskTotal} /> scored cases</span>
             </div>
             <div className="risk-body">
               <RiskDonut slices={riskMix} drawn={drawn} hovered={hoveredRisk} onHover={setHoveredRisk} radarAngle={radarAngle} />
@@ -331,7 +333,7 @@ export default function Dashboard() {
                   >
                     <i style={{ background: r.color }} />
                     <span>{r.key}</span>
-                    <b>{r.value}</b>
+                    <b><CountUp value={r.value} /></b>
                     <em>{Math.round((r.value / riskTotal) * 100)}%</em>
                   </li>
                 ))}
